@@ -1,0 +1,27 @@
+{
+  "name": "angular_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start ": "node index.js",
+    "bundle": "webpack"
+  },
+  "keywords": [
+    "Angular",
+    "webpack"
+  ],
+  "author": "saravyas",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.19.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "html-loader": "^0.5.1",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1"
+  }
+}
