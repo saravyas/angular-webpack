@@ -1,2 +1,4 @@
 # Removing node_modules
 node_modules
+# Removing dist
+dist
