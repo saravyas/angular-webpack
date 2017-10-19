@@ -13,7 +13,7 @@ module.exports = function() {
 	plugins : [
 	  new webpack.optimize.CommonsChunkPlugin({
 	  	name : 'vendor',
-	  	minCunks: function(module){
+	  	minChunks: function(module){
 	  		return module.context && module.context.indexOf('node_modules') >= 0 && count >= 2
 	  	}
 	  })	
